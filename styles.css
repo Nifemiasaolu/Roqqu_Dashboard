@@ -11,6 +11,8 @@
     background: rgb(28, 33, 39) !important;
 }
 
+
+ /* SIDE BAR */
    
 .side-bar{
     width: 16rem;
@@ -82,5 +84,99 @@ ul li a:hover {
 }
 
 
+/* Header  */
 
+.main-header {
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: calc(100% - 16rem);
+    color: rgb(165, 177, 189);
+    padding: 20px;
+}
 
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+
+.sub-header p {
+    font-size: 13px;
+    font-weight: bold;
+    /* padding-top: 5px; */
+}
+
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    height: 35px;
+    background-color: rgb(32, 37, 43) !important;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 2.5rem;
+}
+
+.search-box > img {
+    font-size: 20px;
+}
+
+.search-box > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+    background-color: rgb(32, 37, 43) !important;
+    color: rgb(165, 177, 189);
+}
+
+.name-box {
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    background-color: rgb(18, 23, 29) !important;
+    height: 35px;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nft-img img {
+    border-radius: 50%;
+    width: 1.5rem;
+    text-align: center;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    text-align: center;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.name ion-icon{
+    margin-left: 20px;
+}
+
+.language-box {
+    margin: 0 20px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.logout-box {
+    padding-right: 20px;
+    padding-top: 5px;
+}
