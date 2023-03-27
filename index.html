@@ -1,144 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS link  -->
-    <link rel="stylesheet" href="styles.css" />
+        <!-- CSS link  -->
+        <link rel="stylesheet" href="styles.css" />
 
-    <!-- Font Awesome  -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-    />
-
-    <!-- Google Font  -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap link -->
+        <!-- Font Awesome  -->
         <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
             crossorigin="anonymous"
+            referrerpolicy="no-referrer"
         />
+
+        <!-- Google Font  -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Ion-Icon CDN  -->
         <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
         ></script>
 
-    <!-- Ion-Icon CDN  -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <title>Dashboard</title>
+    </head>
 
-    <title>Dashboard</title>
-</head>
-<body>
-    
-    <div id="root">
-        <nav class="side-bar">
-            <div class="logo-box">
-                <figure class="img-box">
-                    <img src="./images/roqqu.jpg" alt="img">
-                </figure>
-            </div>
+    <body>
+        <div id="root">
+            <nav class="side-bar">
+                <div class="logo-box">
+                    <figure class="img-box">
+                        <img src="./images/roqqu.jpg" alt="img" />
+                    </figure>
+                </div>
 
-            <div class="list-wrap">
-                <p>Dashboard</p>
+                <div class="list-wrap">
+                    <p class="dashboard">Dashboard</p>
 
-                <ul class="list">
-                    <li>
-                        <div>
-                            <a href="">
-                                <figure class="img-box">
-                                    <img src="http://app.roqqu.com/static/media/rocket.4bd9d60ddf4358dded9dcf631f8e1e59.svg" alt="#">
-                                </figure>
-                                <p>Get Started</p>
-                            </a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div>
-                            <a href="">
-                                <figure class="img-box">
-                                    <img src="http://app.roqqu.com/static/media/dashboard-side-icon.af4b58c0c8501b2ee1ac5020b4b00bf8.svg" alt="#">
-                                </figure>
-                                <p>Overview</p>
-                            </a>
-                            <div class="down-outline-icon">
-                                <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ul class="list">
+                        <li class="first-child">
+                            <div>
+                                <a href="">
+                                    <figure class="img-box">
+                                        <img
+                                            src="http://app.roqqu.com/static/media/rocket.4bd9d60ddf4358dded9dcf631f8e1e59.svg"
+                                            alt="#"
+                                        />
+                                    </figure>
+                                    <p>Get Started</p>
+                                </a>
                             </div>
-                        </div>
-                    </li>
+                        </li>
 
-                    <li>
-                        <div>
-                            <a href="">
-                                <figure class="img-box">
-                                    <img src="./images/wallet.svg" alt="">
-                                </figure>
-                                <p>Wallet/Portfoio</p>
-                            </a>
-                        </div>
-                    </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <figure class="img-box">
+                                        <img
+                                            src="http://app.roqqu.com/static/media/dashboard-side-icon.af4b58c0c8501b2ee1ac5020b4b00bf8.svg"
+                                            alt="#"
+                                        />
+                                    </figure>
+                                    <p>Overview</p>
+                                    <ion-icon
+                                        name="chevron-down-outline"
+                                        class="down-arrow"
+                                    ></ion-icon>
+                                </a>
+                            </div>
+                        </li>
 
-                    <li>
-                        <div>
-                            <a href="">
-                                <figure class="img-box">
-                                    <img src="./images/transactions.svg" alt="#">
-                                </figure>
-                                <p>Transactions</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="">
-                                <figure class="img-box">
-                                    <img src="./images/nft.png" alt="#">
-                                </figure>
-                                <p>NFTs</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="">
-                                <figure class="img-box">
-                                    <img src="./images/nft.png" alt="#">
-                                </figure>
-                                <p>Exchange</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="">
-                                <figure class="img-box">
-                                    <img src="./images/nft.png" alt="#">
-                                </figure>
-                                <p>NFTs</p>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <figure class="img-box">
+                                        <img
+                                            src="http://app.roqqu.com/static/media/wallet-side-icon.abe01825650c93c55d877bc8f503c1e2.svg"
+                                            alt=""
+                                        />
+                                    </figure>
+                                    <p>Wallet/Portfoio</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div>
+                                <a href="">
+                                    <figure class="img-box">
+                                        <img
+                                            src="	http://app.roqqu.com/static/media/transaction-side-icon.e044bd31f9a6a4d442aae75b568c9268.svg"
+                                            alt="#"
+                                        />
+                                    </figure>
+                                    <p>Transactions</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <figure class="img-box">
+                                        <img
+                                            src="http://app.roqqu.com/static/media/myNFT-icon-copy.c998810e57d1aacdebb5bc1d2a940646.svg"
+                                            alt="#"
+                                        />
+                                    </figure>
+                                    <p>NFTs</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <figure class="img-box">
+                                        <img
+                                            src="http://app.roqqu.com/static/media/exchange-icon.36f3750d7140e5294b617c352100caef.svg"
+                                            alt="#"
+                                        />
+                                    </figure>
+                                    <p>Exchange</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <figure class="img-box">
+                                        <img
+                                            src="	http://app.roqqu.com/static/media/hub-icon.77bff39cc0b2e692562e4959471ad3b5.svg"
+                                            alt="#"
+                                        />
+                                    </figure>
+                                    <p>Roqqu Hub</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <p class="dashboard">Accounts</p>
+                    <ul class="list">
+                        <li>
+                            <div>
+                                <a href="">
+                                    <figure class="img-box">
+                                        <img
+                                            src="http://app.roqqu.com/static/media/settings-side-icon.eb7e1aa2d25e646c4482e53771e157a4.svg"
+                                            alt="#"
+                                        />
+                                    </figure>
+                                    <p>Settings</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">
+                                    <figure class="img-box">
+                                        <img
+                                            src="http://app.roqqu.com/static/media/help-side-icon.b69e35053d6a435a2f4282869c1ce8d0.svg"
+                                            alt="#"
+                                        />
+                                    </figure>
+                                    <p>Help & Support</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
             
-
-
-
-        </nav>
-    </div>
-</body>
+        </div>
+    </body>
 </html>

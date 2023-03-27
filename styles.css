@@ -6,3 +6,81 @@
     font-family: "Sora", sans-serif;
 }
 
+
+#root{
+    background: rgb(28, 33, 39) !important;
+}
+
+   
+.side-bar{
+    width: 16rem;
+    height: 100%;
+    background-color:rgb(36, 39, 58) !important;
+    padding: 1.5rem;
+}
+
+.logo-box img{
+    width: 4rem;
+    height: 40%;
+}
+
+.list-wrap{ 
+    color: rgb(165, 177, 189) !important;
+    padding: 20px 0;
+    font-size: 13px;   
+}
+
+.dashboard {
+    margin-bottom: 20px;
+}
+
+.list p{
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 25px;
+}
+
+ul li a{
+   text-decoration: none;
+   color: rgb(165, 177, 189);
+   display: flex;
+   padding: 6px 0;
+   font-size: 13px;
+   height: auto;
+   text-align: center;
+   padding-top: 9px;
+}
+
+ul li a:hover {
+    color: #fff;
+    transition: 1s;
+}
+
+.first-child {
+    background-image: linear-gradient(98.7deg,#5240f9 19.95%,#f3526d 89.51%);
+    border-radius: 13px;
+    margin-top: 20px;
+}
+
+.first-child p{
+    color: #fff;
+}
+.img-box img {
+    width: 3.8rem;
+    height: 1.3rem;
+    padding: 0;
+}
+
+.down-arrow {
+    padding-left: 3rem;
+    font-size: bold;
+}
+
+
+
+
