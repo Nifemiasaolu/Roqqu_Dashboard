@@ -94,8 +94,21 @@ ul li a:hover {
     width: calc(100% - 16rem);
     color: rgb(165, 177, 189);
     padding: 20px;
+    height: 4rem;
 }
 
+.left-arrow ion-icon {
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    right: 68.4rem;
+    border: 1px;
+    background: rgb(165, 177, 189);
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    padding: 1px; 
+}
 .sub-header {
     display: flex;
     justify-content: space-between;
@@ -104,9 +117,13 @@ ul li a:hover {
 }
 
 .sub-header p {
-    font-size: 13px;
+    font-size: 12px;
+}
+
+.left-header p {
+    padding-top: 5px;
     font-weight: bold;
-    /* padding-top: 5px; */
+    font-size: 14px;
 }
 
 .right-header {
@@ -143,7 +160,7 @@ ul li a:hover {
 .name-box {
     display: flex;
     align-items: center;
-    width: 10rem;
+    width: 11rem;
     background-color: rgb(18, 23, 29) !important;
     height: 35px;
     border-radius: 10px;
@@ -163,6 +180,7 @@ ul li a:hover {
     font-size: 13px;
     text-align: center;
     padding-left: 10px;
+    
     color: #fff;
 }
 
@@ -179,4 +197,23 @@ ul li a:hover {
 .logout-box {
     padding-right: 20px;
     padding-top: 5px;
+    cursor: pointer;
+}
+
+.hr {
+    background-color: rgb(165, 177, 189);
+    width: calc(100% - 16rem);
+    position: fixed;
+    top: 4rem;
+    right: 0;
+    height: 0.01rem;
+    
+}
+
+    /* Main Section */
+
+#main-section {
+    position: absolute;
+    right: 0;
+    top: 6rem;
 }
