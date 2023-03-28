@@ -5,6 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <!-- Favicon link  -->
+        <link
+            rel="icon"
+            type="image/png"
+            size="32x32"
+            href="https://roqqu.com/static/media/tokens/steem.png"
+        />
+
         <!-- CSS link  -->
         <link rel="stylesheet" href="styles.css" />
 
@@ -35,7 +43,7 @@
             src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
         ></script>
 
-        <title>Dashboard</title>
+        <title>Roqqu-Wallet</title>
     </head>
 
     <body>
@@ -189,46 +197,157 @@
                         <ion-icon name="chevron-back-outline"></ion-icon>
                     </div>
 
-                    <div class="sub-header" >
+                    <div class="sub-header">
                         <div class="left-header">
                             <p>Dashboard</p>
                         </div>
                         <div class="right-header">
-
-
                             <div class="search-box">
                                 <label for="search" class="label">
-                                    <img src="	http://app.roqqu.com/static/media/search-icon.517444163e73d36e6abdb2abc9150e48.svg" alt="">
+                                    <img
+                                        src="	http://app.roqqu.com/static/media/search-icon.517444163e73d36e6abdb2abc9150e48.svg"
+                                        alt=""
+                                    />
                                 </label>
-                                <input type="search" id="gsearch" name="gsearch" placeholder=" Search for assets">
+                                <input
+                                    type="search"
+                                    id="gsearch"
+                                    name="gsearch"
+                                    placeholder=" Search for assets"
+                                />
                             </div>
-                            
-                            
+
                             <div class="name-box">
                                 <figure class="nft-img">
-                                    <img src="https://avatars.dicebear.com/v2/initials/Theophilus_Asaolu.svg" width="30px" alt="#">
+                                    <img
+                                        src="https://avatars.dicebear.com/v2/initials/Theophilus_Asaolu.svg"
+                                        width="30px"
+                                        alt="#"
+                                    />
                                 </figure>
                                 <div class="name">
                                     <p>Theophilu...</p>
                                     <ion-icon name="chevron-forward"></ion-icon>
                                 </div>
-
                             </div>
                             <div class="language-box">
                                 <figure>
-                                    <img src="http://app.roqqu.com/static/media/globe.774a27b82a287136ec09edcd72971975.svg" alt="">
+                                    <img
+                                        src="http://app.roqqu.com/static/media/globe.774a27b82a287136ec09edcd72971975.svg"
+                                        alt=""
+                                    />
                                 </figure>
                             </div>
                             <div class="logout-box">
-                                <img src="http://app.roqqu.com/static/media/sign-out.531e91efeca4f6bbe8b9c914d40840ee.svg" alt="">
+                                <img
+                                    src="http://app.roqqu.com/static/media/sign-out.531e91efeca4f6bbe8b9c914d40840ee.svg"
+                                    alt=""
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
-                
-
-                
+                <div class="hr"></div>
             </header>
+
+            <main id="main-section">
+                <div class="section-one">
+                    <div class="left-section">
+                        <div id="tfv-box">
+                            <div class="total-wrap">
+                                <div class="total-value">
+                                    <h3>Total Fiat Value</h3>
+                                    <p>₦0 <span>.00</span></p>
+                                </div>
+                                <div class="currency-select">
+                                    <select id="currency">
+                                        <option label="NGN">NGN</option>
+                                        <option label="USD">USD</option>
+                                        <option label="EUR">EUR</option>
+                                        <option label="GBP">GBP</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="add-send-money">
+                                <div class="add-money">
+                                    <span>
+                                        <img src="http://app.roqqu.com/static/media/download.e5fbdf700b4b3f8069e68c0698ec9221.svg" alt="">
+                                    </span>
+                                    <span>Add Money</span>
+                                </div>
+                                <div class="add-money">
+                                    <span>
+                                        <img src="http://app.roqqu.com/static/media/upload.60a0df28e871270ecaf918e8fb26e75d.svg" alt="">
+                                    </span>
+                                    <span>Send Money</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-section-bottom">
+                            <div class="quick-actions">
+                                <h3>Quick Actions</h3>
+                                <div class="show-more">
+                                    <p>Show More</p>
+                                    <ion-icon name="chevron-forward"></ion-icon>
+                                </div>
+                            </div>
+
+                            <div class="assets-box">
+                                <div class="assets-card">
+                                    <img
+                                        src="http://app.roqqu.com/static/media/buy-assets-icon.79a3281766eece62aaad2d107b461ab2.svg"
+                                        alt=""
+                                    />
+                                    <h4>Buy Assets</h4>
+                                </div>
+                                <div class="assets-card">
+                                    <img
+                                        src="	http://app.roqqu.com/static/media/sell-assets-icon.114f2c82e1c758f6f13ebd561c64ab0c.svg"
+                                        alt=""
+                                    />
+                                    <h4>Sell Assets</h4>
+                                </div>
+                                <div class="assets-card">
+                                    <img
+                                        src="http://app.roqqu.com/static/media/swap-coin-icon.7d4a3584864675ee410ca3abd83c1eb8.svg"
+                                        alt=""
+                                    />
+                                    <h4>Convert</h4>
+                                </div>
+                                <div class="assets-card">
+                                    <img
+                                        src="http://app.roqqu.com/static/media/pay-bill-icon.65258d5fb9449b3599b868cb165720f7.svg"
+                                        alt=""
+                                    />
+                                    <h4>Pay Bils</h4>
+                                </div>
+                                <div class="assets-card">
+                                    <img
+                                        src="http://app.roqqu.com/static/media/nft-icon.41fdd3e5929947ca948747566944f730.svg"
+                                        alt=""
+                                    />
+                                    <h4>NFTs</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-section">
+                        <div class="right-section-cotents">
+                            <h2>Read Latest Happenings</h2>
+                            <p>Read the latest gist on crypto and blockchain on Roqqu Hub</p>
+                            <button>Coming Soon</button>
+                        </div>
+                        <div class="right-section-cotents">
+                            <h2>Refer To Earn</h2>
+                            <p>Refer your friends and earn 0.5% on all their transactions when they sign up</p>
+                            <button>Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
     </body>
 </html>
