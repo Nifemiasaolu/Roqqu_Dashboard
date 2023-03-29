@@ -95,6 +95,8 @@ ul li a:hover {
     color: rgb(165, 177, 189);
     padding: 20px;
     height: 4rem;
+    z-index: 1;
+    background: rgb(28, 33, 39)
 }
 
 .left-arrow ion-icon {
@@ -124,6 +126,7 @@ ul li a:hover {
     padding-top: 5px;
     font-weight: bold;
     font-size: 14px;
+    padding-left: 1.5rem;
 }
 
 .right-header {
@@ -200,8 +203,8 @@ ul li a:hover {
     cursor: pointer;
 }
 
-.hr {
-    background-color: rgb(165, 177, 189);
+.hr1 {
+    background-color: #535c6480;
     width: calc(100% - 16rem);
     position: fixed;
     top: 4rem;
@@ -214,6 +217,176 @@ ul li a:hover {
 
 #main-section {
     position: absolute;
-    right: 0;
-    top: 6rem;
+    right: 0rem;
+    top: 4.3rem;
+    width: 81%;
+    padding: 1rem;
+    height: 100%;
+    color: #fff;
+}
+
+    /* Section One  */
+
+.section-one {
+    display: flex;
+}
+
+.left-section {
+    width: 70rem;
+    padding: 3rem 3rem 3rem 1.5rem;
+}
+
+.tfv-box {
+    padding-bottom: 6rem;
+}
+.fiat-name, h3 {
+    padding-bottom: 1rem;
+    font-size: 17px;
+    color: rgb(165, 177, 189);
+}
+.total-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.total-wrap-left {
+    display: flex;
+    justify-content:space-between;
+}
+
+.total-wrap-left p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.total-wrap-left p span{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wrap-amount {
+    padding-right: 4rem;
+}
+
+#currency {
+    cursor: pointer;
+    background-color: rgb(28, 33, 39);
+    color: #fff;
+    border: 1px solid rgb(37, 43, 49);
+    font-size: 15px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.add-send-money {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;   
+}
+.add-money {
+    margin-right: 10px;
+    border: 2px;
+    background-color: rgb(37, 43, 49);
+    border-radius: 10px;
+    padding: 8px 14px 8px 12px;
+    outline: 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.add-money span {
+    font-size: 13px;
+    padding-left: 6px;
+    
+}
+
+.vl {
+    border-right: 0.1rem solid #535c6480;
+    height: 500px;
+}
+
+    /* Left Section Bottom  */
+
+.quick-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-more {
+    display: flex;
+    color: rgb(160, 210, 254) !important;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.show-more ion-icon{
+    padding-left: 3px;
+    width: 20px;
+    font-weight: bolder;
+    
+}
+.assets-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.assets-card {
+    background-color: rgb(32, 37, 43);
+    padding: .5rem .5rem;
+    border-radius: 10px;
+    width: 8rem;
+    height: 7rem;
+    border: 1px solid rgb(38, 41, 50);
+}
+
+.assets-card img {
+    padding-bottom: 1rem;
+}
+
+    /* Right Section  */
+
+.right-section {
+    width: calc(100%-70rem);
+    padding: 2rem;
+}
+
+.right-section-cotents {
+    background-image: url(http://app.roqqu.com/static/media/need-help-bg.071e9de701e0d1900fdd.png);
+    background-size: cover;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    /* max-width: 40rem; */
+    margin-bottom: 2rem; 
+    padding: 1.2rem;  
+}
+.right-section-cotents h4{
+    padding-bottom: .5rem;
+    font-weight: bold;
+}
+.right-section-cotents p{
+    font-size: .9rem;
+    padding-bottom: .5rem;
+    line-height: 1.7;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: .6rem 1rem;
+    border-radius: 10px;
+    cursor:pointer;
+    border: none;
+}
+
+.right-section > :nth-child(2){
+    background-image: url(http://app.roqqu.com/static/media/gradient-bg.28ab131e7b3bc109c5e1.png);
+    background-size: cover;
+}
+
+.hr2 {
+    background-color: #535c6480;
+    width: 100%;
+    height: 0.01rem;
 }
