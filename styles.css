@@ -9,6 +9,7 @@
 
 #root{
     background: rgb(28, 33, 39) !important;
+    height: 170vh;
 }
 
 
@@ -114,7 +115,7 @@ ul li a:hover {
 .sub-header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100%; 
     text-align: center;
 }
 
@@ -425,7 +426,62 @@ button {
     padding: .5rem 1em .5rem 1.5rem;
 }
 
+    /* Coin List  */
+
 .coin-list-wrap {
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.coin-list {
     
+    /* padding: 0 2rem; */
+    border-radius: 10px;
+}
+.coin-list a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.coin-list-name {
+    display: flex;
+    padding-bottom: 1rem;
+}
+.coin-list-name p {
+    padding-left: 10px;
+}
+
+.coin-list-name span {
+    color: rgb(177, 181, 196) !important;
+}
+
+.coin-chart img {
+    border-radius: 20px;
+}
+.coin-chart-price {
+    display: flex;
+    background-color: rgba(233, 240, 255, 0.05);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.chart-price {
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-left: 10px;
+    background-color: rgb(165, 177, 189,.05);
+    outline: none;
+
+    justify-content: center;
+}
+
+.chart-price h6 {
+    font-size: 17px;
+}
+.chart-price-cent {
+    display: flex;
+    color: #26ab5f;
+    font-size: 13px;
+    padding-top: 10px;
 }
