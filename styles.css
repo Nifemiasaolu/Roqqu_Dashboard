@@ -514,8 +514,8 @@ table {
     /* background-color: blue; */
 }
 
-thead {
-    display: table-header-group;
+thead, .cell-number{
+    /* display: table-header-group; */
     /* vertical-align: middle; */
     /* justify-content: space-between; */
     align-items: center;
@@ -527,11 +527,28 @@ thead {
 tr {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-bottom: 3rem;
-    
 }
 
+.cell-name {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    padding-left: 2rem;
+}
 
+.cell-name h4, span {
+    padding-left: .5rem;
+} 
 
+.cell-name > :nth-child(3){
+    color: rgb(177, 181, 196);
+}
 
+.cell-price {
+    padding-left: 13rem;
+}
+.cell-change {
+    padding-left: 7rem;
+}
