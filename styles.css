@@ -9,7 +9,7 @@
 
 #root{
     background: rgb(28, 33, 39) !important;
-    height: 150vh;
+    height: 270vh;
 }
 
 
@@ -398,7 +398,6 @@ button {
 .section-two {
     padding: 2rem 1rem;
     height: 100%;
-    /* background-color: red; */
 }
 .top-trending-section {
     display: flex;
@@ -485,3 +484,54 @@ button {
     font-size: 13px;
     padding-top: 10px;
 }
+
+    /* Bottom Section  */
+
+.section-three {
+    padding: 1rem 1rem;
+    /* height: 100%; */
+    position: relative;
+    bottom: 20rem;
+    /* width: 100; */
+    /* width: 78rem; */
+    /* background-color: red; */
+}
+
+.section-three h3 {
+    color: rgb(177, 181, 196);
+    padding-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+table {
+    display: table;
+    box-sizing: inherit;
+    border-collapse: separate;
+    /* background-color: rgba(233, 240, 255, 0.02); */
+    padding: 1rem ; 
+    border-radius: 15px;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+thead {
+    display: table-header-group;
+    /* vertical-align: middle; */
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 1rem;
+    color: rgb(177, 181, 196);
+    
+}
+
+tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    
+}
+
+
+
+
