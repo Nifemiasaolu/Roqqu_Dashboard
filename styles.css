@@ -9,7 +9,7 @@
 
 #root{
     background: rgb(28, 33, 39) !important;
-    height: 270vh;
+    height: 280vh;
 }
 
 
@@ -492,9 +492,6 @@ button {
     /* height: 100%; */
     position: relative;
     bottom: 20rem;
-    /* width: 100; */
-    /* width: 78rem; */
-    /* background-color: red; */
 }
 
 .section-three h3 {
@@ -507,11 +504,11 @@ table {
     display: table;
     box-sizing: inherit;
     border-collapse: separate;
-    /* background-color: rgba(233, 240, 255, 0.02); */
+    background-color: rgba(233, 240, 255, 0.02);
     padding: 1rem ; 
     border-radius: 15px;
     width: 100%;
-    /* background-color: blue; */
+    height: 120vh;
 }
 
 thead, .cell-number{
@@ -527,8 +524,16 @@ thead, .cell-number{
 tr {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    padding-bottom: 3rem;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.more-coins {
+    background-color: transparent;
+}    
+.more-coins:hover {
+    background-color: rgba(233, 240, 255, 0.1);
+    transition: .5s ease-in;
 }
 
 .cell-name {
@@ -551,4 +556,24 @@ tr {
 }
 .cell-change {
     padding-left: 7rem;
+}
+.cell-chart {
+    padding-left: 9rem;
+}
+.cell-trade {
+    padding-left: 9rem;
+}
+
+.view-more {
+    position: relative;
+    bottom: 3rem;
+    left: 26rem;
+}
+
+.view-more:hover {
+    background-color: aqua;
+    color: black;
+    transition: 1s all;
+    transform: scale(1.1);
+    font-weight: bold;
 }
