@@ -20,8 +20,15 @@
     height: 100%;
     background-color:rgb(36, 39, 58) !important;
     padding: 1.5rem;
+    position: fixed;
+    top: 0;
+    /* left: -250px; */
+    transition: all 300ms ease-in-out;
 }
 
+.side-bar .active {
+    left: 0;
+}
 .logo-box img{
     width: 4rem;
     height: 40%;
@@ -61,7 +68,7 @@ ul li a{
 
 ul li a:hover {
     color: #fff;
-    transition: 1s;
+    /* transition: 1s; */
 }
 
 .first-child {
@@ -100,7 +107,7 @@ ul li a:hover {
     background: rgb(28, 33, 39);
 }
 
-.left-arrow ion-icon {
+.toggle-btn ion-icon {
     position: absolute;
     bottom: 0;
     /* left: 0; */
